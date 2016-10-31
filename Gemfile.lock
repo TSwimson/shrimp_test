@@ -1,0 +1,37 @@
+PATH
+  remote: /Users/tanner/Programming/shrimp
+  specs:
+    shrimp (0.0.7)
+      god
+      json
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.1)
+    god (0.13.7)
+    json (2.0.2)
+    method_source (0.8.2)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
+    puma (3.6.0)
+    rack (1.6.4)
+    rack-protection (1.5.3)
+      rack
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    slop (3.6.0)
+    tilt (2.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  pry
+  puma
+  shrimp!
+  sinatra
